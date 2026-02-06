@@ -1,0 +1,25 @@
+while True:
+    print ("1. Phonebook")
+    print ("2. Messages")
+    print ("3. Chat")
+    print ("4. Call Register")
+    print ("5. Tones")
+    print ("6. Settings")
+    print ("7. Call Divert")
+    print ("8. Games")
+    print ("9. Calculator")
+    print ("10. Clock")
+    print ("11. Profiles")
+    print ("12. Sim Services")
+    print ("0. Exist")
+
+    menuoptions = input ("Select Menu option : ")
+    if menuoptions == ("1"):
+        print ("Search") 
+        print ("Service Nos") 
+        print ("Erase") 
+        print ("Edit") 
+        print ("Assign Tone") 
+        print ("Send b Card") 
+    else:
+        print("Exist")    
